@@ -4,26 +4,30 @@
  * and open the template in the editor.
  */
 package finalPackage;
-
+import java.util.Scanner;
 /**
  *
  * @author cgiel0d
  */
 public class Retailer {
      public static void main(String[] args){
+         Phone[] phoneArray = new Phone[0];
+         for ( int i=0; i<phoneArray.length; i++) {
+             phoneArray[i]=new Phone();
+}
+         
+                 
+         boolean setUp;
+         String name;
      
-     Phone one = new Phone();
-     Phone two = new Phone();
-     one.model = "Samsung";
-     two.model = "Apple";
-     one.carrier = "Verizon";
-     two.carrier = "Verizon";
-     one.powerOn();
-     one.volume = 10;
-     one.data = 160;
-     one.increaseVolume(25);
-     one.useData(230);
-     one.powerOff();
+         Scanner salesman = new Scanner(System.in);
+         System.out.println("Are you making a phone sale?");
+         setUp = salesman.nextBoolean();
+         if(setUp=true){
+            
+             
+         }
+         
      
 }
 }     
