@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package chunk2methods;
 
 import java.util.Scanner;
 
 /**
  *
- * @author cgiel0d
+ * @author Christine Giealrowski
  */
 public class FullyBaked {
     public static double areashape(int choice){

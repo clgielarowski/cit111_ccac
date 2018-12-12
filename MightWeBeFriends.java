@@ -1,5 +1,4 @@
-
-package ControlStuctures;
+package ControlStructures;
 
 import java.util.Scanner;
         //builds a scanner object and stores
@@ -105,4 +104,3 @@ public class MightWeBeFriends {
         }
     }//end main
 }//end class
-    
