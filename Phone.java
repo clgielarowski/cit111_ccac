@@ -4,21 +4,34 @@
  * and open the template in the editor.
  */
 package finalPackage;
-
+import java.util.Random;
 /**
  *
- * @author cgiel0d
+ * @author Computer
  */
 public class Phone {
     public boolean power;
     public int volume;
     public int data;
+    public int aCode;
+    public int num3;
+    public int num4;
     public final int maxVolume = 100;
     public final int minVolume = 0;
     public final int maxData = 500;
     public final int minData = 0;
     public String model;
     public String carrier;
+    
+    public void genPhoneNum(){
+        Random three = new Random();
+        Random four = new Random();
+        num3=three.nextInt(900)+100;
+        num4=four.nextInt(9000)+1000;
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-**-*-*-*-*-*-*-");
+        System.out.println("Please take NOTE of Phone Number for this device: ("+aCode+") "+num3+"-"+num4);
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
+    }
     
     public void maximumData(){
         data = 500;
@@ -90,3 +103,4 @@ public class Phone {
         }
     }
 }
+
